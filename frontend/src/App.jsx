@@ -9,6 +9,8 @@ import Roadmap from "./pages/Roadmap";
 import MyJobs from "./pages/MyJobs";
 import Learning from "./pages/Learning";
 import Mock from "./pages/Mock";
+import CRT from "./pages/CRT";
+import Settings from "./pages/Settings";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path="/jobs" element={<MyJobs />} />
         <Route path="/learning" element={<Learning />} />
         <Route path="/mock" element={<Mock />} />
+        <Route path="/crt" element={<CRT />} />
+        <Route path="/settings" element={<Settings />} />
       </Routes>
     </BrowserRouter>
   );

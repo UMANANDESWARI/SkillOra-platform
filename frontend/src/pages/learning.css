@@ -1,0 +1,91 @@
+.learning-page {
+  padding: 30px;
+  background: #f8fafc;
+}
+
+/* HEADER */
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+/* OVERALL BOX */
+.overall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  width: 300px;
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 10px;
+}
+
+.progress-fill {
+  width: 10%;
+  height: 100%;
+  background: #a78bfa;
+  border-radius: 10px;
+}
+
+/* SECTION */
+.section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+/* SKILL CARD */
+.skill-card {
+  border: 1px solid #e5e7eb;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.left {
+  display: flex;
+  gap: 10px;
+}
+
+/* BADGES */
+.badge {
+  margin-left: 10px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.badge.high {
+  background: #ef4444;
+  color: white;
+}
+
+.badge.medium {
+  background: #7c3aed;
+  color: white;
+}
+
+/* LINKS */
+.links {
+  margin-top: 5px;
+}
+
+.links a {
+  margin-right: 10px;
+  font-size: 12px;
+  color: #6366f1;
+  text-decoration: none;
+}

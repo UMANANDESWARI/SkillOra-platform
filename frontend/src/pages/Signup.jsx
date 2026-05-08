@@ -5,63 +5,39 @@ function Signup() {
   const nav = useNavigate();
 
   return (
-    <div className="signup-container">
+   <div className="signup-page">
 
-      {/* LEFT SIDE */}
-      <div className="left">
-        <h2 className="logo">AI Job Prep Platform</h2>
+  <div className="signup-left">
+    <h1>
+      Your <span>placement</span> journey starts right here.
+    </h1>
+    <p>
+      Upload a job description and get a complete AI-generated preparation plan.
+    </p>
+  </div>
 
-        <h1>
-          <span>Your placement journey</span><br />
-          starts right here.
-        </h1>
+  <div className="signup-right">
+    <div className="signup-box">
 
-        <p>
-          Upload a job description and get a complete AI-generated preparation plan within seconds.
-        </p>
+      <h2>Create account ✨</h2>
+      <p>Free forever. No credit card required.</p>
 
-        <div className="stats">
-          <div className="box">
-            <h3>10K+</h3>
-            <p>Students trained</p>
-          </div>
+      <input className="signup-input" placeholder="Full Name" />
+      <input className="signup-input" placeholder="Email" />
+      <input className="signup-input" type="password" placeholder="Password" />
 
-          <div className="box">
-            <h3>95%</h3>
-            <p>Success rate</p>
-          </div>
+      <button className="signup-btn" onClick={() => nav("/login")}>
+        Create account
+      </button>
 
-          <div className="box">
-            <h3>500+</h3>
-            <p>JDs analyzed</p>
-          </div>
-
-          <div className="box">
-            <h3>50+</h3>
-            <p>Partner companies</p>
-          </div>
-        </div>
-      </div>
-
-
-      {/* RIGHT SIDE */}
-      <div className="right">
-        <h2>Create account ✨</h2>
-        <p className="sub">Free forever. No credit card required.</p>
-
-        <input placeholder="Full Name" />
-        <input placeholder="Email" type="email" />
-        <input placeholder="Password" type="password" />
-
-        <button className="btn">Create account</button>
-
-        <p className="login-link">
-          Already have an account?{" "}
-          <span onClick={() => nav("/login")}>Sign in</span>
-        </p>
-      </div>
+      <p className="signup-text" onClick={() => nav("/login")}>
+        Already have an account? <span>Sign in</span>
+      </p>
 
     </div>
+  </div>
+
+</div>
   );
 }
 

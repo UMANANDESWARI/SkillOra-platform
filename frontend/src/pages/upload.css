@@ -1,0 +1,119 @@
+.upload-page {
+  padding: 30px;
+  background: #f8fafc;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+/* BOX */
+.upload-box,
+.result-box {
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* ROW */
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+/* INPUT */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  flex: 1;
+}
+
+input, textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  margin-top: 5px;
+}
+
+textarea {
+  height: 120px;
+}
+
+/* BUTTON */
+.analyze-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #7c3aed, #9333ea);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* RESULT */
+.success {
+  color: green;
+  margin-bottom: 15px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.stat {
+  background: #f3f4f6;
+  padding: 15px;
+  border-radius: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+.badge {
+  background: #7c3aed;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.skill {
+  border: 1px solid #ccc;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* BUTTON ROW */
+.btn-row {
+  display: flex;
+  gap: 15px;
+}
+
+.roadmap-btn {
+  flex: 1;
+  background: linear-gradient(135deg, #7c3aed, #9333ea);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.secondary-btn {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: white;
+}

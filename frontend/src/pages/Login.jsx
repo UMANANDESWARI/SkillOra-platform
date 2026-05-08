@@ -37,7 +37,7 @@ function Login() {
         <input type="email" placeholder="Email" />
         <input type="password" placeholder="Password" />
 
-        <button className="btn" onClick={() => nav("/upload")}>
+        <button className="btn" onClick={() => nav("/dashboard")}>
           Sign in
         </button>
 

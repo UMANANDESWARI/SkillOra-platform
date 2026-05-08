@@ -1,0 +1,89 @@
+.crt-page {
+  padding: 30px;
+  background: #f8fafc;
+}
+
+/* HEADER */
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.tabs button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #e5e7eb;
+  cursor: pointer;
+}
+
+.tabs .active {
+  background: #7c3aed;
+  color: white;
+}
+
+/* LEVEL */
+.levels {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.levels button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.levels .active {
+  background: #7c3aed;
+  color: white;
+}
+
+/* QUESTIONS */
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.question-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* TOP */
+.question-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.badge {
+  background: #e5e7eb;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+/* OPTIONS */
+.option {
+  border: 1px solid #e5e7eb;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background: #f3f4f6;
+}

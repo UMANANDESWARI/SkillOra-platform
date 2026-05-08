@@ -6,6 +6,9 @@ import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import Upload from "./pages/Upload";
 import Roadmap from "./pages/Roadmap";
+import MyJobs from "./pages/MyJobs";
+import Learning from "./pages/Learning";
+import Mock from "./pages/Mock";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/upload" element={<Upload />} />
         <Route path="/roadmap" element={<Roadmap />} />
+        <Route path="/jobs" element={<MyJobs />} />
+        <Route path="/learning" element={<Learning />} />
+        <Route path="/mock" element={<Mock />} />
       </Routes>
     </BrowserRouter>
   );

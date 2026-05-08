@@ -33,7 +33,7 @@ const nav = useNavigate();
 
         <div className="hero-buttons">
           <button onClick={() => nav("/signup")} className="btn-primary">Get Started Free →</button>
-          <button className="btn-outline">Upload JD</button>
+          <button onClick={() => nav("/upload")} className="btn-outline">Upload JD</button>
         </div>
       </div>
 

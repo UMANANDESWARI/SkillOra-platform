@@ -1,0 +1,119 @@
+.jobs-page {
+  padding: 30px;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+/* HEADER */
+.jobs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jobs-header h1 {
+  font-size: 28px;
+}
+
+.jobs-header p {
+  color: #6b7280;
+  margin-top: 5px;
+}
+
+/* BUTTON */
+.upload-btn {
+  background: linear-gradient(135deg, #7c3aed, #9333ea);
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* LIST */
+.job-list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* CARD */
+.job-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.job-card:hover {
+  transform: translateY(-3px);
+}
+
+/* TOP */
+.job-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-top h3 {
+  font-size: 18px;
+}
+
+.job-top span {
+  color: gray;
+}
+
+/* META */
+.meta {
+  margin-top: 5px;
+  color: #6b7280;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.level {
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.level.advanced {
+  color: red;
+}
+
+.level.intermediate {
+  color: orange;
+}
+
+/* STATUS */
+.status {
+  background: #7c3aed;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* SKILLS */
+.skills {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  border: 1px solid #d1d5db;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.skill.more {
+  background: #f3f4f6;
+}
